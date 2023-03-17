@@ -1,0 +1,19 @@
+{
+  "name": "country-code-mapper",
+  "version": "1.0.0",
+  "description": "Get country name from country code",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPEureka/Country-Code-Mapper.git"
+  },
+  "author": "Karen Ho (JPcooper4589262@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPEureka/Country-Code-Mapper/issues"
+  },
+  "homepage": "https://github.com/JPEureka/Country-Code-Mapper#readme"
+}
