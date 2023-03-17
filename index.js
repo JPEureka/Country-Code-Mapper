@@ -1,4 +1,4 @@
-var exports = (module.exports = {});
+const exports = (module.exports = {});
 exports.getCountryName = function (code) {
   const codeToNameMap = {
     AF: "Afghanistan",
@@ -250,4 +250,8 @@ exports.getCountryName = function (code) {
     ZW: "Zimbabwe",
   };
   return codeToNameMap[code] || "--";
+};
+exports.getCountryFlag = function (code) {
+  const flag = require(`./icons/${code.toLowerCase()}.png`);
+  return flag;
 };
