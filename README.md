@@ -4,7 +4,11 @@ Mapping source: https://www.nationsonline.org/oneworld/country_code_list.htm
 Country flag source: https://flagpedia.net/download/icons
 
 Personal sideproject for practice
+Author: JPcooper4589262@gmail.com
 
 How to use:
-countryCodeMapper.getCountryName("GB")
-countryCodeMapper.getCountryFlag("GB")
+countryCodeMapper.getCountryNameList() // return an array of country names
+countryCodeMapper.getCountryCodeList() // return an array of country codes
+countryCodeMapper.getCountryName("GB") // return the mapping country name
+countryCodeMapper.getCountryCode("GB") // return the mapping country code
+countryCodeMapper.getCountryFlag("GB") // return the country flag icon
